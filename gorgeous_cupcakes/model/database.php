@@ -1,9 +1,9 @@
 <?php
 	//database connection details
-	$host = 'localhost';
-	$user = 'root';
-	$password = '';
-	$database = 'gorgeous_cupcakes';
+	$host = $HOST;
+	$user = $USER;
+	$password = $PASSWORD;
+	$database = $DATABASE;
 
 	//connect to database with a try/catch statement
 	//if the connection is not successful display the error message via database_error.php
